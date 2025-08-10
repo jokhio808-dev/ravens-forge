@@ -1,0 +1,9 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#D4A017">
+  <path d="M16 3l4 7-4 7-4-7 4-7zm-6 19l6-3 6 3-6 7-6-7z"/>
+</svg>
+<svg viewBox="0 0 200 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ravenforge Wisdom">
+  <title>Ravenforge Wisdom</title>
+  <g fill="currentColor">
+    <path d="M20 8c5 2 9 6 10 11l-5-1-4 3-3-2-6 2 3-4-4-3 9-6z"/>
+    <rect x="38" y="14" width="2" height="20" rx="1"/>
+    <text x="44" y="30" font-family="Cinzel, serif" font-size="18">Ravenforge</text>

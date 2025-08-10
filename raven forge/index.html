@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ravenforge Wisdom — Viking Myth, Virtue, and Meaning</title>
+  <meta name="description" content="Mythic stories, Viking virtues, and modern philosophy—crafted for seekers.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ravenforge Wisdom">
+  <meta property="og:description" content="Awaken the wisdom of the North.">
+  <meta property="og:image" content="https://yourdomain.com/assets/og-image.jpg">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <img src="avatar-viking.png" alt="Ravenforge Wisdom logo" width="48" height="48">
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">☰</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#wisdom">Wisdom</a>
+      <a href="#games">Games</a>
+      <a href="#merch">Merch</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-accent" href="https://www.youtube.com/@YourChannelHandle" target="_blank" rel="noopener">Watch</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero__inner">
+        <h1>Awaken the wisdom of the North.</h1>
+        <p>Mythic stories, Viking virtues, and modern philosophy—crafted for seekers.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#videos">Watch latest video</a>
+          <a class="btn btn-ghost" href="#newsletter">Join the Raven List</a>
+        </div>
+      </div>
+      <div class="runes" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>I’m raven , builder, and keeper of the longhouse fire. I explore Viking virtue, Norse myth, and the hard-earned meaning that thinkers like Nietzsche and Camus wrestled from the abyss. This channel is a forge: we heat ideas until they glow and hammer them into tools for living—courage, discipline, honor, and wonder.</p>
+      <ul class="pillars">
+        <li><strong>Myth</strong> — stories that orient the soul</li>
+        <li><strong>Virtue</strong> — courage, honor, discipline</li>
+        <li><strong>Meaning</strong> — philosophy you can use</li>
+      </ul>
+    </section>
+
+    <section id="videos" class="section">
+      <h2>Latest videos</h2>
+      <div id="video-grid" class="video-grid" aria-live="polite"></div>
+      <div class="center">
+        <a class="btn btn-accent" href="https://www.youtube.com/@YourChannelHandle/videos" target="_blank" rel="noopener">See all on YouTube</a>
+      </div>
+    </section>
+
+    <section id="wisdom" class="section">
+      <h2>Wisdom archive</h2>
+      <p>Every saga here pairs story with strategy. Read the scripts, sources, and distilled lessons—so the fire travels with you.</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Odin as the Existential Rebel</h3>
+          <p>On sacrifice, sight, and the price of knowledge. With Camus and Nietzsche at the table.</p>
+          <a class="card-link" href="/content/sample-post-odin-as-rebel.md" target="_blank" rel="noopener">Read the script</a>
+        </article>
+        <article class="card">
+          <h3>The Nine Virtues, Sharpened</h3>
+          <p>Courage, truth, honor, fidelity, discipline, hospitality, industriousness, self-reliance, perseverance.</p>
+          <a class="card-link" href="#" aria-disabled="true">Coming soon</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="games" class="section">
+      <h2>Games & projects</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Raven Run (Android)</h3>
+          <p>A dodge-and-fly mini built in Android Studio. Devlog: input, collision, scoring.</p>
+          <a class="card-link" href="#" aria-disabled="true">Devlog (soon)</a>
+        </article>
+        <article class="card">
+          <h3>Longship</h3>
+          <p>Navigate storms with discipline and timing. Mechanics meet myth.</p>
+          <a class="card-link" href="#" aria-disabled="true">Prototype (soon)</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="merch" class="section">
+      <h2>Merch</h2>
+      <p>Carry the ember. Limited-run prints, rune cards, and minimal designs to anchor your day.</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Rune Cards</h3>
+          <p>36 cards, matte finish, daily draws for focus.</p>
+          <a class="card-link" href="#" aria-disabled="true">Notify me</a>
+        </article>
+        <article class="card">
+          <h3>Raven Banner</h3>
+          <p>SVG + PNG pack for profile, banner, watermark.</p>
+          <a class="card-link" href="#" aria-disabled="true">Download (soon)</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section">
+      <h2>Claim your weekly rune</h2>
+      <p>One lesson, one story, one practice. No spam. Only steel and spark.</p>
+      <form id="newsletter-form" class="newsletter" action="https://formspree.io/f/your-id" method="POST">
+        <label for="email" class="visually-hidden">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@mead.hall" required>
+        <button class="btn btn-primary" type="submit">Join</button>
+        <small id="newsletter-status" role="status" aria-live="polite"></small>
+      </form>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Send a raven</h2>
+      <form id="contact-form" class="contact" action="https://formspree.io/f/your-id" method="POST">
+        <div class="grid-2">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div>
+            <label for="reply">Email</label>
+            <input id="reply" name="replyTo" type="email" required>
+          </div>
+        </div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button class="btn btn-accent" type="submit">Send</button>
+        <small id="contact-status" role="status" aria-live="polite"></small>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Walk with courage. Return with wisdom.</p>
+    <nav aria-label="Footer">
+      <a href="#about">About</a>
+      <a href="#wisdom">Archive</a>
+      <a href="#contact">Contact</a>
+      <a href="#" aria-disabled="true">Privacy</a>
+      <a href="#" aria-disabled="true">Terms</a>
+    </nav>
+    <p class="small">© <span id="year"></span> Ravenforge Wisdom</p>
+  </footer>
+
+  <script src="/js/app.js" defer></script>
+</body>
+</html>
+      <a href="#wisdom">Archive</a>
+      <a href="#contact">Contact</a>
+      <a href="#" aria-disabled="true">Privacy</a>
+      <a href="#" aria-disabled="true">Terms</a>
+    </nav>
+    <p class="small">© <span id="year"></span> Ravenforge Wisdom</p>
+  </footer>
+
+  <script src="/js/app.js" defer></script>
+  <script>
+    // Simple "Click the Raven" game logic
+    const ravenImg = document.getElementById('raven-img');
+    const ravenScore = document.getElementById('raven-score');
+    const ravenStart = document.getElementById('raven-start');
+    const ravenTimer = document.getElementById('raven-timer');
+    let score = 0, playing = false, timeLeft = 10, timerId;
+
+    function randomPos() {
+      const x = Math.floor(Math.random() * (320 - 48));
+      const y = Math.floor(Math.random() * (200 - 48));
+      ravenImg.style.left = x + 'px';
+      ravenImg.style.top = y + 'px';
+    }
+
+    ravenImg.onclick = function() {
+      if (!playing) return;
+      score++;
+      ravenScore.textContent = 'Score: ' + score;
+      randomPos();
+    };
+
+    ravenStart.onclick = function() {
+      score = 0;
+      timeLeft = 10;
+      ravenScore.textContent = 'Score: 0';
+      ravenTimer.textContent = 'Time: 10s';
+      playing = true;
+      ravenImg.style.display = '';
+      randomPos();
+      ravenStart.disabled = true;
+      timerId = setInterval(() => {
+        timeLeft--;
+        ravenTimer.textContent = 'Time: ' + timeLeft + 's';
+        if (timeLeft <= 0) {
+          clearInterval(timerId);
+          playing = false;
+          ravenImg.style.display = 'none';
+          ravenStart.disabled = false;
+          ravenTimer.textContent = 'Game over! Final score: ' + score;
+        }
+      }, 1000);
+    };
+    ravenImg.style.display = 'none';
+  </script>
+</body>
+</html>

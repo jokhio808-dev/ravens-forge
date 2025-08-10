@@ -1,0 +1,14 @@
+<svg viewBox="0 0 200 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ravenforge Wisdom">
+  <title>Ravenforge Wisdom</title>
+  <image href="e:\Copilot_20250808_180204.png" x="0" y="0" height="48" width="48"/>
+  <g fill="currentColor">
+    <path d="M20 8c5 2 9 6 10 11l-5-1-4 3-3-2-6 2 3-4-4-3 9-6z"/>
+    <rect x="38" y="14" width="2" height="20" rx="1"/>
+    <text x="44" y="30" font-family="Cinzel, serif" font-size="18">Ravenforge</text>
+  </g>
+</svg>
+<g fill="currentColor">
+    <path d="M150 8c5 2 9 6 10 11l-5-1-4 3-3-2-6 2 3-4-4-3 9-6z"/>
+    <rect x="168" y="14" width="2" height="20" rx="1"/>
+    <text x="174" y="30" font-family="Cinzel, serif" font-size="18">Wisdom</text>
+</g>
